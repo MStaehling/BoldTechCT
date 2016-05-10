@@ -1,0 +1,18 @@
+.box {
+  margin-bottom: 10px;
+  background-color: grey;
+  text-align: center;
+  display: inline-block;
+  width: 32%;
+  height: 200px;
+  line-height: 200px;
+}
+#borderBox {
+  text-align: center;
+}
+@media (max-width: 800px) {
+  .box {
+    display: block;
+    width: 100%;
+  }
+}
